@@ -1,0 +1,73 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fill-height {
+  min-height: 100vh;  
+}
+
+.left-side {
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; 
+}
+
+.left-side h1 {
+  font-size: 2.1rem;
+  color: #1d1d6c;
+}
+
+.left-side p {
+  font-size: 1.1rem;
+  color: #1d1d6c;
+}
+
+.right-side {
+  background: linear-gradient(135deg, #1a1a4c, #1c1c3b);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.compact-card {
+  width: 380px;
+  padding: 16px !important;
+}
+
+#input-v-1,
+#input-v-4,
+#input-v-7,
+#input-v-10 {
+  width: 300px !important;
+  max-width: 100%;
+  min-height: 42px;
+  height: 36px;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+}
+
+#input-v-1.v-input,
+#input-v-4.v-input,
+#input-v-7.v-input,
+#input-v-10.v-input {
+  width: 300px !important;
+  max-width: 100%;
+  min-height: 42px;
+}
+
+.v-btn.text-sm {
+  font-size: 0.9rem;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}

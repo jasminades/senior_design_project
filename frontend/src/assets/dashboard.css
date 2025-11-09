@@ -1,0 +1,29 @@
+body {
+    background-color: #10103c;
+}
+
+.fill-height {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropzone {
+  border: 2px dashed #1d1d6c;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  min-height: 250px;
+}
+
+.dropzone:hover {
+  background: rgba(29, 29, 108, 0.1);
+}
+
+.dropzone p {
+  margin: 0.5rem 0;
+  color: #1d1d6c;
+}
