@@ -27,3 +27,35 @@ body {
   margin: 0.5rem 0;
   color: #1d1d6c;
 }
+
+.dashboard-bg {
+  background: linear-gradient(135deg, #f2f7ff, #eef2ff, #fafbff);
+  min-height: 100vh;
+}
+
+.upload-card {
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.info-card {
+  border-radius: 16px;
+}
+
+.dropzone {
+  border: 2px dashed #1d1d6c;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  background-color: #fafbff;
+  transition: 0.3s;
+}
+.dropzone:hover {
+  background-color: #eef1ff;
+  transform: scale(1.02);
+}
+
+.result-card {
+  border-radius: 16px;
+}
